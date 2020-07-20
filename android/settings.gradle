@@ -19,6 +19,7 @@ project(':@react-native-community_async-storage').projectDir = new File(rootProj
  * If not, see <http://www.gnu.org/licenses/>.
  *
  */
+include ':android-webauthn-authenticator-master'
 
 rootProject.name = 'uPortMobile'
 include ':react-native-firebase'

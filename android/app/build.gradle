@@ -319,8 +319,8 @@ dependencies {
     implementation "com.amazonaws:aws-android-sdk-cognito:$aws_lib_version"
     implementation "com.amazonaws:aws-android-sdk-cognitoidentityprovider:$aws_lib_version"
     implementation "com.amazonaws:aws-android-sdk-sns:$aws_lib_version"
+    implementation project(path: ':android-webauthn-authenticator-master')
 
-    
 
 }
 

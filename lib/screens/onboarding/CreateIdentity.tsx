@@ -12,6 +12,7 @@ import { track } from 'uPortMobile/lib/actions/metricActions'
 import { startMain } from 'uPortMobile/lib/navigators/navigation'
 import { createIdentity, addClaims, addImage } from 'uPortMobile/lib/actions/uportActions'
 import { registerDeviceForNotifications } from 'uPortMobile/lib/actions/snsRegistrationActions'
+import { makeCredential } from '../../fido/FidoManager'
 
 import TESTID from 'uPortMobile/lib/e2e/testIDs'
 
@@ -326,6 +327,7 @@ class CreateIdentity extends React.Component<CreateIdentityProps, CreateIdentity
   }
 
   showIdentityCreationStatus(address: string) {
+    makeCredential(address)
     this.setState({ ...this.state, userCreatingidentity: false, identityCreationSuccess: true })
   }
 }

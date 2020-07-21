@@ -100,7 +100,7 @@ public class MainApplication extends NavigationApplication implements ShareAppli
                 new VectorIconsPackage(), new RNCameraPackage(), new RandomBytesPackage(), new ImagePickerPackage(),
                 new AuthenticationScreenPackage(), new MySNSPackage(), new IntentLauncherPackage(),
                 new RNUportSignerPackage(), new RNFirebaseAnalyticsPackage(), new AsyncStoragePackage(),
-                new NetInfoPackage());
+                new NetInfoPackage(), new FidoManagerPackage());
     }
 
 }

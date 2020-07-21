@@ -13,17 +13,5 @@
         "Request, recieve and share information about yourself"
       ]
     }
-  },
-  {
-    "id": "onfido",
-    "title": "Get OnFido ID",
-    "subtitle": "Get verified in 5 minutes",
-    "url": "https://",
-    "logo": "",
-    "headerColor": "#3640f5",
-    "content": {
-      "description": "Verify yourself to to get one-click access to financial services",
-      "footNote": "Did you know????"
-    }
   }
 ]

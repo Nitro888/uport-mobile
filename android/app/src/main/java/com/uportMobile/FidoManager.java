@@ -74,7 +74,7 @@ class FidoManager extends ReactContextBaseJavaModule implements ActivityEventLis
             WritableMap writableMap = Arguments.createMap();
             writableMap.putArray("credentialId", bytesToRnArray(credentialId));
             writableMap.putArray("cborEncoded", bytesToRnArray(cborEncoded));
-            Toast.makeText(getReactApplicationContext(), "makeCredential....", Toast.LENGTH_LONG).show();
+            Toast.makeText(getReactApplicationContext(), "make FIDO Credential....", Toast.LENGTH_LONG).show();
             promise.resolve(writableMap);
         } catch (WebAuthnException e) {
             e.printStackTrace();
